@@ -3,7 +3,6 @@ const {
   getLikedMovies,
   removeFromLikedMovies,
 } = require("../controllers/UserController");
-
 const router = require("express").Router();
 
 router.get("/liked/:email", getLikedMovies);
